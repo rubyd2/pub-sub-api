@@ -12,14 +12,14 @@ PUBSUB_HOST: api.pubsub.salesforce.com
 # Pub/Sub API Host
 PUBSUB_PORT: 7443
 # Your Salesforce Login URL
-LOGIN_URL: null
+LOGIN_URL: https://orgfarm-3aadc073f4-dev-ed.develop.lightning.force.com
 
 # For authentication, you can use either username/password or accessToken/tenantId types.
 # Either one of the combinations is required. Please specify `null` values to the unused type.
 # Your Salesforce Username
-USERNAME: null
+USERNAME: rabraham.529593c5258a@agentforce.com
 # Your Salesforce Password
-PASSWORD: null
+PASSWORD: L0rdJesus3103$Gn0aegaLTkZkwmWR808yLKzSR
 # Your Salesforce org Tenant ID
 TENANT_ID: null
 # Your Salesforce Session Token
@@ -29,7 +29,7 @@ ACCESS_TOKEN: null
 # Optional Configurations:
 # =========================
 # Topic to publish/subscribe to (default: /event/Order_Event__e)
-TOPIC: null
+TOPIC: /data/Employee__ChangeEvent
 # Number of Events to publish in single or separate batches (default: 5)
 # Used only by PublishStream.java
 NUMBER_OF_EVENTS_TO_PUBLISH: null
@@ -45,7 +45,7 @@ REPLAY_PRESET: null
 REPLAY_ID: null
 # Flag to enable/disable processing of bitmap fields in ChangeEventHeader in Subscribe and
 # ManagedSubscribe examples for change data capture events (default: false)
-PROCESS_CHANGE_EVENT_HEADER_FIELDS: null
+PROCESS_CHANGE_EVENT_HEADER_FIELDS: true
 
 # ManagedSubscribe RPC parameters
 # For ManagedSubscribe.java, either supply the developer name or the ID of ManagedEventSubscription
