@@ -12,7 +12,7 @@ PUBSUB_HOST: api.pubsub.salesforce.com
 # Pub/Sub API Host
 PUBSUB_PORT: 7443
 # Your Salesforce Login URL
-LOGIN_URL: https://orgfarm-3aadc073f4-dev-ed
+LOGIN_URL: https://orgfarm-3aadc073f4-dev-ed.develop.my.salesforce.com
 
 # For authentication, you can use either username/password or accessToken/tenantId types.
 # Either one of the combinations is required. Please specify `null` values to the unused type.
